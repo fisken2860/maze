@@ -1,6 +1,6 @@
 import random
 import time
-from window import Window, Line, Point
+from window import  Line, Point
 class Cell():
     def __init__(self, win):
         self.has_left_wall = True
