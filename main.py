@@ -3,11 +3,11 @@ from blocks import Maze
 from window import Window
 def main():
    
-    num_cols = 12
-    num_rows = 10
+    num_cols = 50
+    num_rows = 40
     margin = 50
-    screen_x = 800
-    screen_y = 600
+    screen_x = 1600
+    screen_y = 1200
     cell_size_x = (screen_x - 2 * margin) / num_cols
     cell_size_y = (screen_y - 2 * margin) / num_rows
     win = Window(screen_x, screen_y)

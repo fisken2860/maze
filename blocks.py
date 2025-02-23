@@ -61,7 +61,7 @@ class Cell():
 
         fill_color = "red"
         if undo:
-            fill_color = "green"
+            fill_color = "yellow"
 
         line = Line(Point(x_center, y_center), Point(x_center2, y_center2))
         self.win.draw_line(line, fill_color)
@@ -113,7 +113,7 @@ class Maze():
         if self.win is None:
             return
         self.win.redraw()
-        time.sleep(0.02)
+        #time.sleep(0.00)
     
     def _draw_cell(self, i, j):
         if self.win is None:
